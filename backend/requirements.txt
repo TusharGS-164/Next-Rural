@@ -17,16 +17,16 @@ google-generativeai==0.7.2
 # ── AI — Embeddings ───────────────────────────────────────────
 sentence-transformers==2.7.0
 
-# ── AI — Voice transcription ──────────────────────────────────
-openai-whisper==20231117
-
 # ── AI — Language ─────────────────────────────────────────────
 langdetect==1.0.9
 googletrans==4.0.0-rc1
 
 # ── Core numeric ──────────────────────────────────────────────
 numpy>=1.24.0
-
+pip>=25.0
 # ── 🔧 REQUIRED FIX ───────────────────────────────────────────
 setuptools>=65
 wheel
+
+# ── AI — Voice transcription ──────────────────────────────────
+openai-whisper==20231117
