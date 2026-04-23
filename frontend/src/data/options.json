@@ -1,0 +1,39 @@
+
+{
+  "education": [
+    { "value": "8th",      "label": "8th or below",  "labelKn": "8ನೇ ಅಥವಾ ಕೆಳಗೆ", "icon": "📚" },
+    { "value": "10th",     "label": "10th pass",      "labelKn": "10ನೇ ಪಾಸ್",      "icon": "🎒" },
+    { "value": "12th",     "label": "12th pass",      "labelKn": "12ನೇ ಪಾಸ್",      "icon": "🏫" },
+    { "value": "graduate", "label": "Graduate",       "labelKn": "ಪದವೀಧರ",         "icon": "🎓" }
+  ],
+  "interest": [
+    { "value": "trade",  "label": "Repair & Trade",    "labelKn": "ದುರಸ್ತಿ ಮಾಡುವುದು", "icon": "🔧" },
+    { "value": "health", "label": "Healthcare",        "labelKn": "ಆರೋಗ್ಯ ಸೇವೆ",     "icon": "👩‍⚕️" },
+    { "value": "agri",   "label": "Farming & Nature",  "labelKn": "ಕೃಷಿ",             "icon": "🌾" },
+    { "value": "tech",   "label": "Computers & Tech",  "labelKn": "ಕಂಪ್ಯೂಟರ್",       "icon": "💻" },
+    { "value": "govt",   "label": "Government Jobs",   "labelKn": "ಸರ್ಕಾರಿ ಕೆಲಸ",   "icon": "🏛️" }
+  ],
+  "goal": [
+    { "value": "quick_earn",  "label": "Earn money quickly",   "icon": "💰" },
+    { "value": "certificate", "label": "Get a certificate",    "icon": "📜" },
+    { "value": "govt_job",    "label": "Government job",       "icon": "🏛️" },
+    { "value": "business",    "label": "Start own business",   "icon": "🚀" }
+  ],
+  "travelRange": [
+    { "value": "5km",    "label": "Within 5 km",      "icon": "🚶" },
+    { "value": "20km",   "label": "5–20 km",          "icon": "🛵" },
+    { "value": "50km",   "label": "20–50 km",         "icon": "🚌" },
+    { "value": "hostel", "label": "Can stay in hostel","icon": "🏠" }
+  ],
+  "districts": [
+    "Dharwad", "Hubli", "Gadag", "Koppal", "Haveri",
+    "Bagalkot", "Bellary", "Bidar", "Raichur", "Yadgir",
+    "Kalaburagi", "Vijayapura", "Belagavi", "Dharwad", "Other"
+  ],
+  "languages": [
+    { "value": "en", "label": "English" },
+    { "value": "kn", "label": "ಕನ್ನಡ" },
+    { "value": "hi", "label": "हिन्दी" },
+    { "value": "te", "label": "తెలుగు" }
+  ]
+}

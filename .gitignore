@@ -1,0 +1,34 @@
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Database — never commit the real DB
+backend/rural_pathways.db
+backend/*.db
+
+# Environment secrets — NEVER commit these
+.env
+backend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ── Node / React ─────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,250 @@
+{
+  "lang": "en",
+  "langName": "English",
+
+  "nav": {
+    "home": "Home",
+    "assessment": "Assessment",
+    "careers": "Career Paths",
+    "opportunities": "Opportunities",
+    "mentor": "AI Mentor",
+    "login": "Log in",
+    "getStarted": "Get Started",
+    "signOut": "Sign out",
+    "resetProfile": "Reset profile"
+  },
+
+  "home": {
+    "tag": "🌾 For Rural India",
+    "title": "Discover Your Path",
+    "subtitle": "Rural Youth Guide",
+    "description": "Find your career path with personalized guidance, skill development, and local opportunities designed for rural youth.",
+    "startAssessment": "Start Assessment",
+    "explorePaths": "Explore Pathways",
+    "stats": {
+      "youth": "Youth Guided",
+      "itis": "Local ITIs Mapped",
+      "languages": "Regional Languages",
+      "employed": "Found Employment"
+    },
+    "heroCard": {
+      "title": "Career Guidance Tool",
+      "subtitle": "Ready to find your path?",
+      "startNow": "Start Now →"
+    },
+    "howWeHelp": {
+      "title": "How We Help You Succeed",
+      "subtitle": "Personalized guidance to help rural youth discover and pursue meaningful career pathways.",
+      "features": {
+        "interests": { "title": "Discover Interests", "desc": "Identify your strengths and career interests through our personalized assessment tools." },
+        "skills":    { "title": "Skill Development",  "desc": "Access tailored resources for developing the skills you need for your chosen path." },
+        "careers":   { "title": "Career Pathways",    "desc": "Explore various career paths based on your unique background and location." },
+        "connect":   { "title": "Opportunity Connect","desc": "Find relevant government schemes, exams, and job opportunities in your region." }
+      }
+    },
+    "stories": {
+      "title": "Success Stories",
+      "subtitle": "Real youth from rural Karnataka who found their path."
+    },
+    "impact": {
+      "title": "Real Impact, Measurable Change",
+      "subtitle": "Every metric tracks a real person whose life changed because of access to the right guidance.",
+      "employed": "Found employment within 6 months",
+      "income":   "Average income increase",
+      "districts":"Districts covered in Karnataka",
+      "complete": "Users complete their pathway"
+    },
+    "cta": {
+      "title": "Your future starts here",
+      "subtitle": "Free, in your language, for you.",
+      "button": "Begin Your Journey →"
+    }
+  },
+
+  "assessment": {
+    "back": "← Back to Home",
+    "languagePill": "🌐 Tap to switch language",
+    "question": "Question",
+    "of": "of",
+    "next": "Next →",
+    "back_btn": "← Back",
+    "seeResults": "See My Results →",
+    "finding": "Finding paths…",
+    "intro": {
+      "welcome": "Welcome 👋",
+      "subtitle": "Tell us a little about yourself to get started.",
+      "namePlaceholder": "Enter your name",
+      "nameLabel": "Your Name",
+      "districtLabel": "Your District",
+      "districtPlaceholder": "Select your district",
+      "continue": "Continue →"
+    },
+    "questions": {
+      "education": "Which class have you completed?",
+      "interest":  "What kind of work interests you?",
+      "goal":      "What is your main goal?",
+      "travel":    "How far can you travel for training?"
+    }
+  },
+
+  "results": {
+    "badge": "✦ AI Matched for You",
+    "title": "Your Career Pathways",
+    "subtitle": "Based on your profile",
+    "recommended": "Recommended Careers",
+    "nearYou": "Near You in",
+    "seeAll": "See all →",
+    "noResults": "No results yet. Please complete the assessment first.",
+    "startAssessment": "Start Assessment",
+    "talkMentor": "💬 Talk to AI Mentor",
+    "mentorDesc": "Ask anything — ITI admission, PMKVY, exam prep — in your language.",
+    "openMentor": "Open Mentor →"
+  },
+
+  "careers": {
+    "title": "All Career Paths",
+    "subtitle": "Explore all career options available for rural youth in North Karnataka.",
+    "all": "All",
+    "loading": "Loading careers…",
+    "noResults": "No careers found in this category.",
+    "retry": "Try again"
+  },
+
+  "opportunities": {
+    "title": "Local Opportunities",
+    "subtitle": "ITI centres, government schemes, and apprenticeships near you.",
+    "allDistricts": "All Districts",
+    "all": "All",
+    "loading": "Loading opportunities…",
+    "noResults": "No opportunities found. Try selecting a different district or type.",
+    "apply": "Apply Now",
+    "call": "📞 Call"
+  },
+
+  "mentor": {
+    "title": "Pathways AI Mentor",
+    "subtitle": "Gemini · Whisper · Multilingual",
+    "greeting": "Namaste! 🙏 I'm your career mentor.\n\nYou can type, or tap 🎙️ to speak in Kannada, Hindi, Telugu, or English. I'll understand and reply in your language.",
+    "online": "Online",
+    "offline": "Offline",
+    "quickTopics": "Quick Topics",
+    "language": "Language",
+    "typePlaceholder": "Type in",
+    "topics": {
+      "career":       "🎯 Career guidance",
+      "iti":          "🏫 ITI admissions",
+      "schemes":      "📋 Govt schemes",
+      "apprentice":   "🔧 Apprenticeships",
+      "exams":        "📝 Entrance exams",
+      "financial":    "💰 Financial help",
+      "resume":       "📄 Resume help"
+    },
+    "geminiOnline": "Gemini · Online",
+    "offlineMode":  "Offline mode"
+  },
+
+  "auth": {
+    "login": {
+      "title":         "Welcome back",
+      "subtitle":      "Sign in to continue your career journey",
+      "emailLabel":    "Email address",
+      "emailHolder":   "you@example.com",
+      "passwordLabel": "Password",
+      "passwordHolder":"••••••••",
+      "submit":        "Sign in",
+      "submitting":    "Signing in…",
+      "noAccount":     "Don't have an account?",
+      "createOne":     "Create one free",
+      "guestPrompt":   "Want to explore first?",
+      "guestLink":     "Try the assessment as a guest →",
+      "errorRequired": "Please enter your email and password."
+    },
+    "register": {
+      "title":            "Create your account",
+      "subtitle":         "Free — takes less than 2 minutes",
+      "emailLabel":       "Email address",
+      "phoneLabel":       "Phone",
+      "phoneOptional":    "(optional)",
+      "phonePlaceholder": "+91 98765 43210",
+      "passwordLabel":    "Password",
+      "passwordHolder":   "Min. 8 characters",
+      "confirmLabel":     "Confirm password",
+      "confirmHolder":    "Repeat your password",
+      "submit":           "Create account",
+      "submitting":       "Creating account…",
+      "haveAccount":      "Already have an account?",
+      "signIn":           "Sign in",
+      "terms":            "By registering you agree to our Terms of Service.",
+      "strength": {
+        "weak":   "Weak password",
+        "fair":   "Fair password",
+        "good":   "Good password",
+        "strong": "Strong password"
+      },
+      "errors": {
+        "emailRequired":    "Email is required.",
+        "passwordShort":    "Password must be at least 8 characters.",
+        "passwordMismatch": "Passwords do not match."
+      }
+    }
+  },
+
+  "profile": {
+    "title":        "Your Account",
+    "verified":     "✓ Verified",
+    "memberSince":  "Member since",
+    "status":       "Account status",
+    "active":       "Active",
+    "careerProfile":"Career Profile",
+    "updateProfile":"Update profile →",
+    "loading":      "Loading your profile…",
+    "noProfile":    "No career profile found. Complete the assessment to create one.",
+    "startAssessment":"Start Assessment",
+    "roadmap":      "Your Roadmap",
+    "viewRecs":     "View My Recommendations",
+    "openMentor":   "Open AI Mentor",
+    "actions":      "Account actions",
+    "signoutDesc":  "Signing out will remove your session from this device. Your profile and progress are saved to your account.",
+    "signout":      "Sign out of this device",
+    "fields": {
+      "name":       "Name",
+      "education":  "Education",
+      "interest":   "Interest",
+      "district":   "District",
+      "goal":       "Goal",
+      "travel":     "Travel range",
+      "language":   "Language",
+      "age":        "Age"
+    }
+  },
+
+  "progress": {
+    "title": "Your Roadmap",
+    "steps": {
+      "assessment": "Assessment Complete",
+      "enrolled":   "Enrolled in Course",
+      "scheme":     "Applied for Scheme",
+      "training":   "Training Complete",
+      "job":        "Job / Self-Employment"
+    },
+    "done":     "Done",
+    "active":   "In Progress",
+    "upcoming": "Upcoming"
+  },
+
+  "career": {
+    "bestMatch":    "★ Best Match",
+    "match":        "% match",
+    "viewRoadmap":  "View Roadmap →",
+    "explorePath":  "Explore Path"
+  },
+
+  "common": {
+    "back":    "← Back",
+    "loading": "Loading…",
+    "error":   "Something went wrong.",
+    "retry":   "Try again",
+    "online":  "Online",
+    "offline": "Offline"
+  }
+}

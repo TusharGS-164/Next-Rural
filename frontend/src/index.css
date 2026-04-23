@@ -1,0 +1,19 @@
+/* frontend/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font stack */
+@layer base {
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+  .font-serif {
+    font-family: 'Lora', 'Georgia', serif;
+  }
+}
+
+/* Smooth scrolling site-wide */
+html {
+  scroll-behavior: smooth;
+}
