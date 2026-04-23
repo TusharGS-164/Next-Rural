@@ -29,4 +29,4 @@ setuptools>=65
 wheel
 
 # ── AI — Voice transcription ──────────────────────────────────
-openai-whisper==20231117
+openai-whisper @ git+https://github.com/openai/whisper.git
