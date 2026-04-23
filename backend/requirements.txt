@@ -3,7 +3,7 @@ fastapi==0.111.0
 uvicorn[standard]==0.29.0
 sqlalchemy==2.0.30
 pydantic==2.7.1
-python-multipart==0.0.9      # required for UploadFile / Form support
+python-multipart==0.0.9
 python-dotenv==1.0.1
 
 # ── Auth ──────────────────────────────────────────────────────
@@ -14,17 +14,19 @@ email-validator==2.1.1
 # ── AI — LLM chat ─────────────────────────────────────────────
 google-generativeai==0.7.2
 
-# ── AI — Embeddings (Extension 1 + 2) ─────────────────────────
-# Install for embedding-based recommendations (~120MB download)
+# ── AI — Embeddings ───────────────────────────────────────────
 sentence-transformers==2.7.0
 
-# ── AI — Voice transcription (Extension 3) ────────────────────
-# Install for Whisper voice-to-text. Also requires: sudo apt install ffmpeg
+# ── AI — Voice transcription ──────────────────────────────────
 openai-whisper==20231117
 
-# ── AI — Language detection + translation ─────────────────────
+# ── AI — Language ─────────────────────────────────────────────
 langdetect==1.0.9
 googletrans==4.0.0-rc1
 
-# ── Optional: better numpy performance ────────────────────────
+# ── Core numeric ──────────────────────────────────────────────
 numpy>=1.24.0
+
+# ── 🔧 REQUIRED FIX ───────────────────────────────────────────
+setuptools>=65
+wheel
