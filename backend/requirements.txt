@@ -26,3 +26,5 @@ numpy==1.26.4
 
 # ── AI — Voice transcription ──────────────────────────────────
 openai-whisper @ git+https://github.com/openai/whisper.git
+
+psycopg2-binary==2.9.9
