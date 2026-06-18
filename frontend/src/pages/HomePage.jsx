@@ -59,14 +59,14 @@ export default function HomePage() {
               {t('home.explorePaths')}
             </Link>
           </div>
-          <div className="grid grid-cols-4 gap-4 max-w-md">
+          {/* <div className="grid grid-cols-4 gap-4 max-w-md">
             {STATS.map(s => (
               <div key={s.key}>
                 <div className="text-2xl font-bold text-green-800 font-serif">{s.num}</div>
                 <div className="text-xs text-gray-500">{t(`home.stats.${s.key}`)}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
         <div className="bg-[#8aab6e] hidden md:flex items-center justify-center">
           <div className="text-center text-white p-12">
@@ -99,7 +99,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stories */}
+      {/* Stories
       <section className="px-8 md:px-16 py-20 bg-gray-50">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 font-serif mb-3">{t('home.stories.title')}</h2>
@@ -120,7 +120,7 @@ export default function HomePage() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Impact */}
       <section className="px-8 md:px-16 py-20 bg-white">

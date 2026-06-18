@@ -34,12 +34,10 @@ REFRESH_EXPIRE  = int(os.getenv("REFRESH_TOKEN_EXPIRE_DAYS",   "7"))     # days
 pwd_ctx = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 def hash_password(plain: str):
-    digest = hashlib.sha256(plain.encode()).hexdigest()
-    return pwd_ctx.hash(digest)
+    return pwd_ctx.hash(plain)
 
-def verify_password(plain: str, hashed: str) -> bool:
-    digest = hashlib.sha256(plain.encode()).hexdigest()
-    return pwd_ctx.verify(digest, hashed)
+def verify_password(plain: str, hashed: str):
+    return pwd_ctx.verify(plain, hashed)
 
 
 # ── Token creation ────────────────────────────────────────────
